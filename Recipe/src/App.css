@@ -1,3 +1,56 @@
 :root{
-    
+    --font-Play:'Playfair Display', serif;
+    --font-Montserrat: 'Montserrat', sans-serif;
+}
+header > h1{
+    font-family: var(--font-Play);
+    text-align: center;
+    font-size:48px;
+    width: 587px;
+    margin: 0;
+    position: relative;        
+    height: 64px;
+    top: 49px;
+    left: 236px;
+    line-height: 63.98px;
+}
+header > p{
+    width: 592px;
+    height: 51px;
+    position: absolute;
+    top: 125px;
+    left: 261px;
+    font-family: var(--font-Montserrat);
+    font-weight:500;
+}
+input{
+    margin-top:20px ;
+}
+label{
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: var(--font-Montserrat);
+}
+
+#cheese{
+    width: 969px;
+    height: 444px;
+    position: absolute;
+    top: 219px;
+    left: 234px;
+
+}
+#ingredients{
+    position: absolute;
+    top: 711px;
+    left: 236px;
+}
+#ingredients > h2{
+    margin-bottom: 30px;
+}
+#Instructions{
+    position: absolute;
+    top: 1382px;
+    left: 236px;
+
 }
