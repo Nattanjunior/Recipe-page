@@ -22,12 +22,18 @@ header > p{
     left: 261px;
     font-family: var(--font-Montserrat);
     font-weight:500;
+    font-size:14px;
+    line-height: 17.07px;
 }
 input{
-    margin-top:20px ;
+    margin-top:10px;
+    width:21px;
+    height:21px;
+    display: flex;
 }
 label{
-    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: 15px;
     font-weight: 500;
     font-family: var(--font-Montserrat);
 }
@@ -38,19 +44,55 @@ label{
     position: absolute;
     top: 219px;
     left: 234px;
-
 }
 #ingredients{
+    box-sizing: border-box;
+    width: 581px;
     position: absolute;
     top: 711px;
     left: 236px;
+    display: flex;
+    flex-direction: column;
+}
+#ingredients > p {
+    display: flex;
+    align-items: center;
 }
 #ingredients > h2{
     margin-bottom: 30px;
+    font-family:var(--font-Play);
+    font-weight: 700;
+}
+#ingredients > h3{
+    font-family: var(--font-Play);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+#titleh3{
+    width: 287px;
+    height: 48px;
+    position: relative;
+    top: 32px;
+
 }
 #Instructions{
     position: absolute;
+    width:528px;
     top: 1382px;
     left: 236px;
-
+    display: flex;
+    flex-direction: column;
+}
+#Instructions > p{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+#Instructions > p > span{
+    width:36px;
+    height:36px;
+    background-color: orange;
 }
