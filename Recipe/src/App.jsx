@@ -19,37 +19,27 @@ function App() {
 
       <section id='time'>
       <p>
-        <span>
           <img src={dinning} alt="dinning" /> 
-          <span>Yields</span> <br />
-          <span>12 servings</span>
-        </span> 
+          <span className='yields'>Yields</span> 
+          <p className='servings'>12 servings</p>  
       </p>
 
       <p>
-        <span>
           <img src={clock} alt="time" />
-          <span>Prep Time</span> <br />
-          <span>45 minutes</span>
-        </span>
-      
-      </p>
-
-
-      <p>
-        <span>
-          <img src={clock} alt="time" />
-          <span>Cook Time </span>
-          <span>1 hour</span>
-        </span>
+          <span className='prep'>Prep Time</span> 
+          <p className='minutes'>45 minutes</p>
       </p>
 
       <p>
-        <span>
           <img src={clock} alt="time" />
-          <span>Total Time</span>
-          <span>7,75 hours</span>
-        </span>
+          <span className='cook'>Cook Time </span>
+          <p className='onehours'>1 hour</p>
+      </p>
+
+      <p>
+          <img src={clock} alt="time" />
+          <span className='totalTime'>Total Time</span>
+          <p className='sevenHours'>7,75 hours</p>
       </p>
 
       </section>
