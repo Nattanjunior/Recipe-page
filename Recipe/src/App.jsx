@@ -3,12 +3,13 @@ import photo from '../src/assets/photo1.png'
 import dinning from './assets/dinning.png'
 import clock from  './assets/clock.png'
 import dots from './assets/6dots.svg'
+import {Div} from './components/mobile.jsx'
 
 function App() {
   
 
   return (
-    <div>
+    <Div>
       <header>
         <h1>Classic Cheesecake Recipe</h1>
         <img src={dots} alt="" className='dots'/>
@@ -19,28 +20,28 @@ function App() {
       <img src={photo} alt="Cheesecake" id='cheese'/>
 
 
-      <section id='time'>
-      <p>
-          <img src={dinning} alt="dinning" /> 
-          <span className='yields'>Yields</span> 
+      <section id ='time'>
+      <p id="p1">
+          <img src={dinning} alt="dinning"  classsName='dinning' id="dinning"/> 
+          <span className='yields'>YIELDS</span> 
           <p className='servings'>12 servings</p>  
       </p>
 
-      <p>
+      <p id="p2">
           <img src={clock} alt="time" />
-          <span className='prep'>Prep Time</span> 
+          <span className='prep'>PREP TIME</span> 
           <p className='minutes'>45 minutes</p>
       </p>
 
       <p>
           <img src={clock} alt="time" />
-          <span className='cook'>Cook Time </span>
+          <span className='cook'>COOK TIME </span>
           <p className='onehours'>1 hour</p>
       </p>
 
       <p>
           <img src={clock} alt="time" />
-          <span className='totalTime'>Total Time</span>
+          <span className='totalTime'>TOTAL TIME</span>
           <p className='sevenHours'>7,75 hours</p>
       </p>
 
@@ -129,7 +130,7 @@ function App() {
       <footer>
       created by NattanJunior - devChallenges.io
       </footer>
-    </div>
+    </Div>
      
   )
 }

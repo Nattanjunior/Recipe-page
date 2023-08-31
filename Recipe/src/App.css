@@ -162,6 +162,7 @@ footer{
     font-family: var(--font-Montserrat);
     color: #BDBDBD;
     font-size: 10px;
+    font-weight: 700;
 }
 .sevenHours,.minutes,.onehours,.servings{
     font-family: var(--font-Montserrat);
