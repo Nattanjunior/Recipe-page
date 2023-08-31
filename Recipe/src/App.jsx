@@ -2,6 +2,7 @@ import './App.css'
 import photo from '../src/assets/photo1.png'
 import dinning from './assets/dinning.png'
 import clock from  './assets/clock.png'
+import dots from './assets/6dots.svg'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <div>
       <header>
         <h1>Classic Cheesecake Recipe</h1>
+        <img src={dots} alt="" className='dots'/>
         <p>Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
       </header>
       <main>
