@@ -120,9 +120,7 @@ function App() {
         <p><span>7</span> Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the refrigerator for up to 5 days.</p>
 
 
-        <a href="#">Serve cheesecake with desired toppings. Cover and store leftover cheesecake in the refrigerator for up to 5 days.</a>
-
-
+        <a href="#"><i>Source: https://sallysbakingaddiction.com/classic-cheesecake/</i></a>
       </section>
 
       </main>
