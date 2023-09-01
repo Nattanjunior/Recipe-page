@@ -74,8 +74,9 @@ footer{
     top: 711px;
     left: 236px;
 }
+
 #ingredients > p {
-   margin-top: 15px;
+   margin-top: 20px;
    font-size: 15px;
 } 
 #ingredients > h2{

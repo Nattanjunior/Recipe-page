@@ -33,13 +33,13 @@ function App() {
           <p className='minutes'>45 minutes</p>
       </p>
 
-      <p>
+      <p id="p3">
           <img src={clock} alt="time" />
           <span className='cook'>COOK TIME </span>
           <p className='onehours'>1 hour</p>
       </p>
 
-      <p>
+      <p id="p4">
           <img src={clock} alt="time" />
           <span className='totalTime'>TOTAL TIME</span>
           <p className='sevenHours'>7,75 hours</p>
@@ -51,52 +51,53 @@ function App() {
         <h2>Ingredients</h2>
         <h3>Graham Cracker Crust</h3>
 
-      <p>
+      <p id='para1'>
         <input type="checkbox" name="1" id="ingre1" /> 
-        <label htmlFor="ingre1">1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong> (about 10 full sheet  graham crackers)</label>
+        <label htmlFor="ingre1">1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong> (about 10 full sheet graham crackers)</label>
       </p>
 
-        <p>
+        <p id="para2"> 
           <input type="checkbox" name="2" id="ingre2" />
           <label htmlFor="ingre2">5 Tablespoons (70g) <strong>unsalted butter</strong>, melted</label>
         </p>
 
-        <p>
+        <p id="para3">
           <input type="checkbox" name="3" id="ingre3" />
           <label htmlFor="ingre3">1/4 cup (50g) <strong>granulated sugar</strong></label>
         </p> 
         <h3 id='titleh3'>Cheesecake</h3>
-        <p>
+
+        <p id="para4">
           <input type="checkbox" name="4" id="ingre4" />
           <label htmlFor="ingre4">four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, softened to room temperature</label>
         </p>
 
-        <p>
+        <p id="para5">
           <input type="checkbox" name="5" id="ingre5" />
           <label htmlFor="ingre5">1 cup (200g) <strong>granulated sugar</strong></label>
         </p>
 
-        <p>
+        <p id='para6'>
           <input type="checkbox" name="6" id="ingre6" />
           <label htmlFor="ingre6">1 cup (240g) full-fat <strong>sour cream</strong>, at room temperature</label>
         </p>
 
-        <p>
+        <p id="para7">
           <input type="checkbox" name="7" id="ingre7" />
           <label htmlFor="ingre7">1 teaspoon <strong>pure vanilla extract</strong></label>
         </p>
 
-        <p>
+        <p id="para8">
           <input type="checkbox" name="8" id="ingre8" />
           <label htmlFor="ingre8">2 teaspoons <strong>fresh lemon juice</strong> (optional, but recommended)</label>
         </p>
 
-        <p>
+        <p id="para9">
           <input type="checkbox" name="9" id="ingre9" />
           <label htmlFor="ingre9">3 large <strong>eggs</strong>, at room temperature</label>
         </p>
 
-        <p>
+        <p id="para10">
           <input type="checkbox" name="10" id="ingre10" />
           <label htmlFor="ingre10">topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce (recipe in notes) </label>
         </p>

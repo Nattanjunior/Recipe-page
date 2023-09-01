@@ -19,6 +19,21 @@ header > p {
     font-size:12px;
     line-height:14.63px;
 }
+a{
+    width:352px;
+    top: 2700px;
+    left: 12px;
+    font-size:12px;
+}
+footer{
+    width: 287px;
+    height: 17px;
+    top: 4109px;
+    left: 44px;
+    text-align:center;
+    font-size:12px;
+
+}
 #cheese{
     width: 352px;
     height: 202px;
@@ -38,12 +53,14 @@ header > p {
     height: 26px;
     top: -29px;
     left: -35px;
+   
 }
 .yields{
     width: 54px;
     height: 11px;
     top: -40px;
-    left: 40px;
+    left: 40px; 
+    font-size:8px;
 }
 #p2 > img{
     width: 25px;
@@ -58,14 +75,48 @@ header > p {
     top: -25.75px;
     left: -45px;
 }
+#p3 > img{
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    left: 1.42px;
+
+}
+#p3{
+    width: 111px;
+    height: 26px;
+    position:relative;
+    top: -85.75px;
+    left: 104px;
+    font-size:8px;
+}
+#p4 > img {
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 7.42px;
+}
+#p4{
+    width: 111px;
+    height: 26px;
+    position:relative;
+    top: -165.75px;
+    left: 207px;
+}
+.onehours{
+    top: -37.75px;
+    left: 35px;
+}
+.cook{
+    top: -50px;
+    left: 32px;
+}
 .prep{
-    width: 90px;
-    height: 10px;
     top: -40px;
-    left: 49px;
+    left: 45px;
 }
 .minutes{
-    left: 45px;
+    left: 42px;
 }
 #time{
     top: 379px;
@@ -78,6 +129,33 @@ header > p {
     top: 76px;
     left: 26.5px;
 }
+#ingredients{
+    width:360px;
+    top: 552px;
+    left: 12px;
+    font-size: 12px;
+
+}
+#ingredients > p{
+    font-size:14px;
+}
+#ingredients > h3{
+    font-size:16px;
+}
+#para2,#para5,#para9,#para7{
+    position: relative;
+    top:10px;
+}
+#Instructions{
+    width: 300px;
+    height: 32px;
+    top: 1280px;
+    left: 12px;
+    font-size:16px;
+}
+
+
+
 
 
 
